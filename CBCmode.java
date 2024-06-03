@@ -52,7 +52,7 @@ public class CBCmode extends TEA{
 			System.exit(0);
 		}
 		
-		/* Diving the block into left and right sub blocks */
+		// Diving the block into left and right sub blocks
 		int left = cipherText[0];
 		int right = cipherText[1];
 
